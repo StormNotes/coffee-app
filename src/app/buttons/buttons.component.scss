@@ -1,11 +1,32 @@
-.buttons{
-    width: 50%;
+.buttons {
     margin: 0 auto;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
 
-    a{
-      color:white;
-      width: 80px;
-      height:40px;
-      border:whitesmoke solid 2px;
-    }
+    display:flex;
+
+      div {
+        margin: 0 auto;
+      }
+      /* a{
+
+        color:white;
+        width: 80px;
+        height:40px;
+        border:whitesmoke solid 2px;
+      } */
+
+
+      .button  {
+      background-color: #5a4b288a; /* not green lmao */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      }
+
 }
+
