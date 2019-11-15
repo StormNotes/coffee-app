@@ -35,7 +35,7 @@ ngOnInit() {
 
   CloseUp() {
     const x = document.getElementById('cup');
-    x.style.margin = '0px auto';
+    x.style.margin = '1px auto';
 
   }
 }
