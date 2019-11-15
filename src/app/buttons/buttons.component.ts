@@ -7,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonsComponent implements OnInit {
 
-  myFunc() {
-    document.getElementById('cup').style.display = 'none';
-  }
+
 
 constructor() {
 
@@ -20,6 +18,26 @@ ngOnInit() {
 
   }
 
+
+
+   myFunc() {
+    const x = document.getElementById('cup');
+    x.style.position = 'absolute';
+    x.style.left = '0px';
+
+    /* if (x.style.display === 'none') {
+      transition.style.transition = 'all 2s';
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }*/
+  }
+
+  CloseUp() {
+    const x = document.getElementById('cup');
+    x.style.margin = '0px auto';
+
+  }
 }
 
 

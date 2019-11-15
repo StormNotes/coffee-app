@@ -1,6 +1,5 @@
 .cup{
   display: block;
-  transition: all 1.0s;
 }
 
 .cap{
@@ -10,11 +9,12 @@ margin-top: 100px;
   height: 2vh;
   background: white;
 
-  border: 2px solid #0000008e;
+  /* border: 2px solid #0000008e; */
   border-radius: 12px 12px 0px 0px;
 }
 
 .container{
+  transition: all 1.7s !important;
   clip-path: polygon(11% 0, 89% 0, 76% 100%, 23% 100%);
   margin: 20px auto;
   width: 30%;
@@ -37,3 +37,4 @@ margin-top: 100px;
       }
     }
 }
+

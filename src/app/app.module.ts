@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { CapComponent } from './cap/cap.component';
 import { MenuDescComponent } from './menu-desc/menu-desc.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
       CapComponent,
       MenuDescComponent,
       ButtonsComponent,
+      MenuComponent,
 
    ],
    imports: [
